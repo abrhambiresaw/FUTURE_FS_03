@@ -1,0 +1,32 @@
+.app__wrapper_info h1 {
+  margin-bottom: 3rem;
+}
+
+.p__cormorant.opening-hours {
+  color: #DCCA87;
+  margin: 2rem 0;
+}
+
+.app__wrapper_info button {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 650px) {
+  .app__wrapper_info h1 {
+    margin-bottom: 1.5rem;
+  }
+
+  .p__cormorant.opening-hours {
+    margin: 1rem 0;
+  }
+
+  .app__wrapper_img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .app__wrapper_info button {
+    margin-top: 1rem;
+    width: 100%; 
+  }
+}
